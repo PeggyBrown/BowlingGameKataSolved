@@ -18,7 +18,7 @@ class BowlingGameTest {
     }
 
     @Test
-    public void shouldScoreOneWhenNoRolls() {
+    public void shouldScoreZeroWhenNoRolls() {
         assertThat(theGame.getScore()).isEqualTo(0);
     }
 
